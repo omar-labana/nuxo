@@ -9,7 +9,13 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  modules: ['@pinia/nuxt', '@nuxt/ui', '@nuxt/eslint', 'nuxt-lodash'],
+  modules: [
+    '@pinia/nuxt',
+    '@nuxt/ui',
+    '@nuxt/eslint',
+    'nuxt-lodash',
+    '@vueuse/nuxt',
+  ],
   css: ['~/assets/css/main.css'],
   lodash: {
     prefix: '_',

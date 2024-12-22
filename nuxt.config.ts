@@ -9,6 +9,9 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  app: {
+    head: { title: 'Start! | Nuxo' },
+  },
   modules: [
     '@pinia/nuxt',
     '@nuxt/ui',

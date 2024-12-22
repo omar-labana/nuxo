@@ -6,4 +6,7 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true,
   },
+  future: {
+    compatibilityVersion: 4,
+  },
 });

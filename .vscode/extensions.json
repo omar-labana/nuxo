@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "usernamehw.errorlens",
+    "eamodio.gitlens",
+    "antfu.iconify",
+    "nuxtr.nuxt-vscode-extentions",
+    "yoavbls.pretty-ts-errors",
+    "bradlc.vscode-tailwindcss",
+    "vue.volar",
+    "redhat.vscode-yaml",
+    "github.copilot",
+    "github.copilot-chat",
+    "editorconfig.editorconfig"
+  ]
+}

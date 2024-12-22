@@ -1,0 +1,18 @@
+{
+  "workbench.sideBar.location": "right",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.compactFolders": false,
+  "nuxtr.defaultPackageManager": "Bun",
+  "nuxtr.openItemsAfterCreation": true,
+  "nuxtr.projectTemplates": [],
+  "nuxtr.vueFiles.style.addStyleTag": false,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.bracketPairColorization.enabled": true,
+
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
+}

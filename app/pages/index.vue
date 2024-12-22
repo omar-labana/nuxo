@@ -1,5 +1,4 @@
 <template>
-  <div>this is an example page</div>
   <ExampleOne />
 </template>
 

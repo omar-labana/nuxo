@@ -15,10 +15,22 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     'nuxt-lodash',
     '@vueuse/nuxt',
+    '@nuxtjs/i18n',
   ],
   css: ['~/assets/css/main.css'],
   lodash: {
     prefix: '_',
     upperAfterPrefix: false,
+  },
+  i18n: {
+    locales: [
+      {
+        code: 'ar',
+        dir: 'rtl',
+        files: ['copy.yml'],
+      },
+    ],
+    defaultLocale: 'ar',
+    strategy: 'no_prefix',
   },
 });

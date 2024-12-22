@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2024-11-01",
+  compatibilityDate: '2024-11-01',
   ssr: false,
   devtools: { enabled: true },
   typescript: {
@@ -9,5 +9,6 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  modules: ["@pinia/nuxt"],
+  modules: ['@pinia/nuxt', '@nuxt/ui'],
+  css: ['~/assets/css/main.css'],
 });

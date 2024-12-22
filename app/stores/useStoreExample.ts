@@ -1,3 +1,3 @@
-export const useStoreExample = defineStore("example", () => {
+export const useStoreExample = defineStore('example', () => {
   return {};
 });

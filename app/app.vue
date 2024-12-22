@@ -1,9 +1,9 @@
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <UApp>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </UApp>
 </template>
 
-<script lang="ts" setup>
-const a: number = 1;
-</script>
+<script lang="ts" setup></script>

@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { NuxtError } from "#app";
+import type { NuxtError } from '#app';
 
 const props = defineProps({
   error: Object as () => NuxtError,

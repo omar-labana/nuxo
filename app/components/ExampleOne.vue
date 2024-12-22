@@ -1,5 +1,3 @@
 <template>
-  <div>this is an example component</div>
+  <UButton>Button</UButton>
 </template>
-
-<script lang="ts" setup></script>

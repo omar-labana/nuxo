@@ -1,6 +1,11 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxo-nuxt-starter",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar-labana/nuxo.git"
+  },
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "build": "nuxt build",

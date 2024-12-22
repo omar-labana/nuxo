@@ -9,6 +9,6 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  modules: ['@pinia/nuxt', '@nuxt/ui'],
+  modules: ['@pinia/nuxt', '@nuxt/ui', '@nuxt/eslint'],
   css: ['~/assets/css/main.css'],
 });

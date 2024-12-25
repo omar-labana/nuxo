@@ -1,5 +1,4 @@
 {
-  "workbench.sideBar.location": "right",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "explorer.compactFolders": false,
   "nuxtr.defaultPackageManager": "Bun",
